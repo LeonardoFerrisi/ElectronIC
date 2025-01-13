@@ -1,0 +1,28 @@
+{
+  "name": "electronic",
+  "version": "1.0.0",
+  "description": "Electron-based Instrumentation and Control; A scaffolding for controlling MATLAB based I&C applications using Electron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardoFerrisi/ElectronIC.git"
+  },
+  "keywords": [
+    "electron",
+    "user",
+    "interface",
+    "matlab"
+  ],
+  "author": "LeonardoFerrisi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonardoFerrisi/ElectronIC/issues"
+  },
+  "homepage": "https://github.com/LeonardoFerrisi/ElectronIC#readme",
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}
