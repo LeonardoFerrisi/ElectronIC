@@ -38,20 +38,24 @@ Electron-based Instrumentation and Control; A scaffolding for controlling MATLAB
     npm install .
     ```
     + This will install all necessary packages to `node_modules` in the local folder you ran the command from.
-5. Run `matlab_socket_server.m` using the MATLAB IDE
+
+
+### Running
+
+1. Run `matlab_socket_server.m` using the MATLAB IDE
     + Navigate to the *Editor* tab and select `Run`
     + You should recived an output that looks like this in the *Command Window*
     ```matlab
     >> matlab_socket_server
     Server is running on port 3000...
     ```
-6. Run the node.js side using 
+2. Run the node.js side using 
 
     ```javascript
     node index.js
     ```
 
-7. If all has been setup correctly, you should see the following on the javascript side:
+3. If all has been setup correctly, you should see the following on the javascript side:
 
     ```javascript
     Connected to MATLAB server
